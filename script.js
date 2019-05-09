@@ -231,7 +231,7 @@
     var box = [xy1[0], xy1[1], xy2[0] - xy1[0], xy3[1] - xy2[1]];
 
     const EASE = Power2.easeInOut;
-    const EASE_TIME = 0.6;
+    const EASE_TIME = 1;
 
     activePage.classList.remove('fade');
     activeRect = rects[pageIndex - 1];
